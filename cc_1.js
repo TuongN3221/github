@@ -14,7 +14,7 @@ console.log("Type:", employeeID);
 console.log("Active:", isActive);
 console.log("Type:", isActive);
 
-// Product Details
+// Product Details - Primitive Data Types
 let productName = "Evil Fish";
 const productPrice = 86;
 var isAvailable = false;
@@ -22,3 +22,19 @@ var isAvailable = false;
 console.log(productName);
 console.log(productPrice);
 console.log(isAvailable);
+
+// Financial Transactions - Number Data Type
+let accountBalance = 1000;
+console.log("Initial Account Balance", accountBalance);
+// Addition 
+accountBalance += 500;
+console.log("Account Balance, Addition:", accountBalance);
+// Subtraction
+accountBalance -= 200;
+console.log("Account Balance, subtraction:", accountBalance);
+// Multiplication
+accountBalance *= 1.10;
+console.log("Account Balance, multiplication:", accountBalance);
+// Division 
+accountBalance /= 2;
+console.log("Account Balance, division:", accountBalance);
