@@ -13,3 +13,12 @@ console.log("Type:", employeeID);
 //console logging isActive
 console.log("Active:", isActive);
 console.log("Type:", isActive);
+
+// Product Details
+let productName = "Evil Fish";
+const productPrice = 86;
+var isAvailable = false;
+
+console.log(productName);
+console.log(productPrice);
+console.log(isAvailable);
