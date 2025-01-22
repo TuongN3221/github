@@ -14,7 +14,7 @@ console.log("Type:", employeeID);
 console.log("Active:", isActive);
 console.log("Type:", isActive);
 
-// Product Details - Primitive Data Types
+// 2. Product Details - Primitive Data Types
 let productName = "Evil Fish";
 const productPrice = 86;
 var isAvailable = false;
@@ -23,7 +23,7 @@ console.log(productName);
 console.log(productPrice);
 console.log(isAvailable);
 
-// Financial Transactions - Number Data Type
+// 3. Financial Transactions - Number Data Type
 let accountBalance = 1000;
 console.log("Initial Account Balance", accountBalance);
 // Addition 
@@ -38,3 +38,8 @@ console.log("Account Balance, multiplication:", accountBalance);
 // Division 
 accountBalance /= 2;
 console.log("Account Balance, division:", accountBalance);
+
+// 4. Customer Messaging - String Data Type
+let customerName = "Not Evil Fish";
+let welcomeMessage = "Hello," + customerName + ", we have fish that aren't evil for you to consume."
+console.log(welcomeMessage);
