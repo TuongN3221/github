@@ -43,3 +43,11 @@ console.log("Account Balance, division:", accountBalance);
 let customerName = "Not Evil Fish";
 let welcomeMessage = "Hello," + customerName + ", we have fish that aren't evil for you to consume."
 console.log(welcomeMessage);
+
+// 5. Access Control - Boolean Data Type
+let isLoggedIn = true;
+let hasAccess = true;
+
+console.log(isLoggedIn && hasAccess);
+console.log(isLoggedIn || hasAccess);
+console.log(!isLoggedIn);
